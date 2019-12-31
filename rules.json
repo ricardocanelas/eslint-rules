@@ -1,0 +1,6 @@
+{
+  "collection-": {
+    "base": "https://raw.githubusercontent.com/eslint/eslint/master/docs/rules/",
+    "rules": ["accessor-pairs", "array-bracket-newline"]
+  }
+}
