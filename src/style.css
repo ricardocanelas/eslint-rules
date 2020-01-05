@@ -1,0 +1,145 @@
+@import "normalize.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+.pull-left { float: left }
+.pull-right { float: right }
+
+/******************
+ * Header
+ ******************/
+
+header {
+  padding: 16px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 2px 0 10px rgb(233, 233, 233);
+}
+
+header button {
+  padding: 5px 9px;
+  border: 1px solid #ccc;
+}
+
+/******************
+ * Intro
+ ******************/
+
+section.intro {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+form {
+  height: 100%;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-group.textarea {
+  height: 69%;
+}
+
+form textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: .375rem .75rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  box-sizing: border-box;
+}
+
+form button {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: .375rem .75rem;
+  border-radius: 4px;
+}
+
+/******************
+ * Details
+ ******************/
+
+ section.details .content {
+  display: flex;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+section.details .list-container {
+  width: 30%;
+  padding: 24px 0 0 16px;
+  box-sizing: border-box;
+}
+
+section.details .list-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+section.details .list-container li {
+  padding: 0;
+  margin: 0 0 3px 0;
+}
+
+section.details .list-container button {
+  text-align: left;
+  padding: 3px 5px;
+  background-color: #ffffff;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+section.details .list-container button:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+section.details .view-container{
+  width: 70%;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+section.details .view-container .title {
+  font-size: 1.7rem;
+  color: #007bff;
+}
+
+/******************
+ * Markdown
+ ******************/
+
+pre {
+  padding: 8px 3px;
+  background: #e9e9e9
+}
