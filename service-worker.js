@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eslint-rules/precache-manifest.dc91166625e738aa6c1b2e7a38e12a52.js"
+  "/eslint-rules/precache-manifest.dee154a23ace5b25b6ebca93e32a2700.js"
 );
 
 self.addEventListener('message', (event) => {
